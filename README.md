@@ -1,7 +1,7 @@
 # ContadorDeHoras
 Projeto para aprendizado NodeJS
 
-How to use?
+# How to use?
 
 Baixe o projeto instale o nodejs e execute "node app.js";
 
