@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="utf-8">
+    <title>Housrs Count</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Angular JS -->
+    <!--<script src="lib/angular/angular.min.js"></script>-->
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--- EasyTimerJS -->
+    <script src="public\lib\easytimer\easytimer.min.js"></script>
+    
+    <!-- Internal -->
+    <link rel="stylesheet" type="text/css" media="screen" href="public\css\main.css">
+    <script src="public\js\main.js"></script>
+
+</head>
+<body ng-app="hourCount" class="bg">
+    <div class="conteiner-fluid">
+        <div class="row justify-content-center">
+            <h1 class="display-4 text-white"> Está quase bom!</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 jumbotron" ng-controller="mainController">
+                <div align="center">
+                    <ul>
+                    {% for t in tarefas %}
+                        <li> {{ t.timeElapsed }} </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

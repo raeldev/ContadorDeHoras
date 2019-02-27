@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.bg {
+  background: -moz-linear-gradient(
+    108deg,
+    rgba(0, 35, 150, 1) 0%,
+    rgba(0, 35, 150, 1) 6%,
+    rgba(0, 230, 172, 1) 100%
+  ); /* ff3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(0, 230, 172, 1)),
+    color-stop(94%, rgba(0, 35, 150, 1)),
+    color-stop(100%, rgba(0, 35, 150, 1))
+  ); /* safari4+,chrome */
+  background: -webkit-linear-gradient(
+    108deg,
+    rgba(0, 35, 150, 1) 0%,
+    rgba(0, 35, 150, 1) 6%,
+    rgba(0, 230, 172, 1) 100%
+  ); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(
+    108deg,
+    rgba(0, 35, 150, 1) 0%,
+    rgba(0, 35, 150, 1) 6%,
+    rgba(0, 230, 172, 1) 100%
+  ); /* opera 11.10+ */
+  background: -ms-linear-gradient(
+    108deg,
+    rgba(0, 35, 150, 1) 0%,
+    rgba(0, 35, 150, 1) 6%,
+    rgba(0, 230, 172, 1) 100%
+  ); /* ie10+ */
+  background: linear-gradient(
+    342deg,
+    rgba(0, 35, 150, 1) 0%,
+    rgba(0, 35, 150, 1) 6%,
+    rgba(0, 230, 172, 1) 100%
+  ); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00E6AC', endColorstr='#002396',GradientType=0 ); /* ie6-9 */
+
+  /* Rose desing */
+  /* background: -moz-linear-gradient(90deg, #382573 0%, #A802AB 100%); /* ff3.6+ */
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A802AB), color-stop(100%, #382573)); /* safari4+,chrome */
+  /* background: -webkit-linear-gradient(90deg, #382573 0%, #A802AB 100%); /* safari5.1+,chrome10+ */
+  /* background: -o-linear-gradient(90deg, #382573 0%, #A802AB 100%); /* opera 11.10+ */
+  /* background: -ms-linear-gradient(90deg, #382573 0%, #A802AB 100%); /* ie10+ */
+  /* background: linear-gradient(0deg, #382573 0%, #A802AB 100%); /* w3c */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A802AB', endColorstr='#382573',GradientType=0 ); /* ie6-9 */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  margin-right: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 40px;
+}
